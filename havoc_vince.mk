@@ -31,6 +31,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
+TARGET_USES_BLUR := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
