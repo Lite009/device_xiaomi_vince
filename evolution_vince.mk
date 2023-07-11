@@ -30,6 +30,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Evolution-X specific flags
 EVO_BUILD_TYPE := UNOFFICIAL
+TARGET_USES_MINI_GAPPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_BOOT_ANIMATION_RES := 1080
